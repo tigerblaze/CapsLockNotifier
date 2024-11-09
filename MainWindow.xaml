@@ -6,12 +6,12 @@
         xmlns:local="clr-namespace:CapsLockNotifier"
         mc:Ignorable="d"
         WindowStyle="None"
-        AllowsTransparency="False"
-        Background="Black"
+        AllowsTransparency="True"
+        Background="Transparent"
         Topmost="True"
-        Visibility="Visible"
+        Visibility="Hidden"
         ShowInTaskbar="False"
-        Title="CapsLockNotifier" Height="100" Width="200">
+        Title="CapsLockNotifier" Height="50" Width="50">
     <Border Background="#AA000000" CornerRadius="10" Padding="10">
         <TextBlock x:Name="StatusText" 
                    Foreground="White" 
